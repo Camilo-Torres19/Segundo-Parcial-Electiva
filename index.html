@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>One Page Style Site</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <header class="container">
+      <nav>
+        <div class="logo">MiLogo</div>
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#shop">Tienda</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Banner de ancho completo -->
+    <section id="home">
+      <figure class="banner">
+        <img
+          src="./img/Pincipal.png"
+          alt="Imagen de Banner" />
+      </figure>
+    </section>
+
+    <!-- Sección de dos columnas -->
+    <section
+      id="about"
+      class="two-column container">
+      <div class="left-column">
+        <h2>Bienvenidos a Nuestra Tienda</h2>
+        <p>
+          Ofrecemos los mejores productos para tus necesidades. ¡Explora nuestra
+          colección y encuentra el artículo perfecto para ti!
+        </p>
+        <a
+          href="#shop"
+          class="shop-btn"
+          >Compra Ahora</a
+        >
+      </div>
+      <div class="right-column">
+        <img
+          src="./img/img01.png"
+          alt="Producto 1" />
+        <img
+          src="./img/img02.jpg"
+          alt="Producto 2" />
+        <img
+          src="./img/img03.jpg"
+          alt="Producto 3" />
+      </div>
+    </section>
+
+    <!-- Galería de productos -->
+    <section
+      id="shop"
+      class="product-gallery container">
+      <h2>SALES CENTER</h2>
+      <p>
+        Ofrecemos los mejores productos para tus necesidades. ¡Explora nuestra
+        colección y encuentra el artículo perfecto para ti!
+      </p>
+      <hr />
+      <div class="gallery-grid">
+        <div class="product-card">
+          <img
+            src="./img/ItemShop01.png"
+            alt="Imagen del Producto" />
+          <div class="product-info">
+            <h3>Laptops</h3>
+            <p>Excelente producto.</p>
+            <p>$29.99</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="./img/ItemShop02.png"
+            alt="Imagen del Producto" />
+          <div class="product-info">
+            <h3>Smartwatch</h3>
+            <p>Calidad y rendimiento superior.</p>
+            <p>$49.99</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="./img/ItemShop03.png"
+            alt="Imagen del Producto" />
+          <div class="product-info">
+            <h3>Dron</h3>
+            <p>¡Un artículo imprescindible!</p>
+            <p>$39.99</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="./img/ItemShop04.png"
+            alt="Imagen del Producto" />
+          <div class="product-info">
+            <h3>Processor</h3>
+            <p>Estilo y accesibilidad.</p>
+            <p>$19.99</p>
+            <button class="add-to-cart">Agregar al carrito</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section
+      id="contact"
+      class="contact-section">
+      <h2>Contáctanos</h2>
+      <form
+        action="#"
+        method="post"
+        class="contact-form">
+        <label for="name">Nombre:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required />
+
+        <label for="email">Correo Electrónico:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required />
+
+        <label for="message">Mensaje:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          required></textarea>
+
+        <button
+          type="submit"
+          class="send-btn">
+          Enviar
+        </button>
+      </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <p>
+            &copy; 2024 Camilo Alberto Torres Ospino. Todos los derechos
+            reservados.
+          </p>
+        </div>
+
+        <hr />
+        <!-- Línea horizontal sobre la segunda fila -->
+
+        <div class="footer-bottom">
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#about">Acerca de</a></li>
+              <li><a href="#shop">Tienda</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <a href="#"
+              ><img
+                src="./img/fb.png"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img
+                src="./img/lk.png"
+                alt="LinkedIn"
+            /></a>
+            <a href="#"
+              ><img
+                src="./img/tw.png"
+                alt="Twitter (X)"
+            /></a>
+            <a href="#"
+              ><img
+                src="./img/yt.png"
+                alt="YouTube"
+            /></a>
+            <a href="#"
+              ><img
+                src="./img/int.png"
+                alt="Instagram"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
